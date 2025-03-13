@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		63DCA14D2D82192B00EBE9AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63DCA12D2D82192A00EBE9AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63DCA1342D82192A00EBE9AC;
+			remoteInfo = DunyaKasifi;
+		};
+		63DCA1572D82192B00EBE9AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63DCA12D2D82192A00EBE9AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63DCA1342D82192A00EBE9AC;
+			remoteInfo = DunyaKasifi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63DCA1352D82192A00EBE9AC /* DunyaKasifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DunyaKasifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DCA14C2D82192B00EBE9AC /* DunyaKasifiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DunyaKasifiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DCA1562D82192B00EBE9AC /* DunyaKasifiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DunyaKasifiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		63DCA15E2D82192B00EBE9AC /* Exceptions for "DunyaKasifi" folder in "DunyaKasifi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 63DCA1342D82192A00EBE9AC /* DunyaKasifi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		63DCA1372D82192A00EBE9AC /* DunyaKasifi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				63DCA15E2D82192B00EBE9AC /* Exceptions for "DunyaKasifi" folder in "DunyaKasifi" target */,
+			);
+			path = DunyaKasifi;
+			sourceTree = "<group>";
+		};
+		63DCA14F2D82192B00EBE9AC /* DunyaKasifiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DunyaKasifiTests;
+			sourceTree = "<group>";
+		};
+		63DCA1592D82192B00EBE9AC /* DunyaKasifiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DunyaKasifiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63DCA1322D82192A00EBE9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DCA1492D82192B00EBE9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DCA1532D82192B00EBE9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63DCA12C2D82192A00EBE9AC = {
+			isa = PBXGroup;
+			children = (
+				63DCA1372D82192A00EBE9AC /* DunyaKasifi */,
+				63DCA14F2D82192B00EBE9AC /* DunyaKasifiTests */,
+				63DCA1592D82192B00EBE9AC /* DunyaKasifiUITests */,
+				63DCA1362D82192A00EBE9AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63DCA1362D82192A00EBE9AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63DCA1352D82192A00EBE9AC /* DunyaKasifi.app */,
+				63DCA14C2D82192B00EBE9AC /* DunyaKasifiTests.xctest */,
+				63DCA1562D82192B00EBE9AC /* DunyaKasifiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63DCA1342D82192A00EBE9AC /* DunyaKasifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DCA15F2D82192B00EBE9AC /* Build configuration list for PBXNativeTarget "DunyaKasifi" */;
+			buildPhases = (
+				63DCA1312D82192A00EBE9AC /* Sources */,
+				63DCA1322D82192A00EBE9AC /* Frameworks */,
+				63DCA1332D82192A00EBE9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				63DCA1372D82192A00EBE9AC /* DunyaKasifi */,
+			);
+			name = DunyaKasifi;
+			packageProductDependencies = (
+			);
+			productName = DunyaKasifi;
+			productReference = 63DCA1352D82192A00EBE9AC /* DunyaKasifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63DCA14B2D82192B00EBE9AC /* DunyaKasifiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DCA1642D82192B00EBE9AC /* Build configuration list for PBXNativeTarget "DunyaKasifiTests" */;
+			buildPhases = (
+				63DCA1482D82192B00EBE9AC /* Sources */,
+				63DCA1492D82192B00EBE9AC /* Frameworks */,
+				63DCA14A2D82192B00EBE9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DCA14E2D82192B00EBE9AC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63DCA14F2D82192B00EBE9AC /* DunyaKasifiTests */,
+			);
+			name = DunyaKasifiTests;
+			packageProductDependencies = (
+			);
+			productName = DunyaKasifiTests;
+			productReference = 63DCA14C2D82192B00EBE9AC /* DunyaKasifiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63DCA1552D82192B00EBE9AC /* DunyaKasifiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DCA1672D82192B00EBE9AC /* Build configuration list for PBXNativeTarget "DunyaKasifiUITests" */;
+			buildPhases = (
+				63DCA1522D82192B00EBE9AC /* Sources */,
+				63DCA1532D82192B00EBE9AC /* Frameworks */,
+				63DCA1542D82192B00EBE9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DCA1582D82192B00EBE9AC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63DCA1592D82192B00EBE9AC /* DunyaKasifiUITests */,
+			);
+			name = DunyaKasifiUITests;
+			packageProductDependencies = (
+			);
+			productName = DunyaKasifiUITests;
+			productReference = 63DCA1562D82192B00EBE9AC /* DunyaKasifiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63DCA12D2D82192A00EBE9AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					63DCA1342D82192A00EBE9AC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					63DCA14B2D82192B00EBE9AC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 63DCA1342D82192A00EBE9AC;
+					};
+					63DCA1552D82192B00EBE9AC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 63DCA1342D82192A00EBE9AC;
+					};
+				};
+			};
+			buildConfigurationList = 63DCA1302D82192A00EBE9AC /* Build configuration list for PBXProject "DunyaKasifi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63DCA12C2D82192A00EBE9AC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 63DCA1362D82192A00EBE9AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63DCA1342D82192A00EBE9AC /* DunyaKasifi */,
+				63DCA14B2D82192B00EBE9AC /* DunyaKasifiTests */,
+				63DCA1552D82192B00EBE9AC /* DunyaKasifiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63DCA1332D82192A00EBE9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DCA14A2D82192B00EBE9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DCA1542D82192B00EBE9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63DCA1312D82192A00EBE9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DCA1482D82192B00EBE9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DCA1522D82192B00EBE9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63DCA14E2D82192B00EBE9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63DCA1342D82192A00EBE9AC /* DunyaKasifi */;
+			targetProxy = 63DCA14D2D82192B00EBE9AC /* PBXContainerItemProxy */;
+		};
+		63DCA1582D82192B00EBE9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63DCA1342D82192A00EBE9AC /* DunyaKasifi */;
+			targetProxy = 63DCA1572D82192B00EBE9AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63DCA1602D82192B00EBE9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DunyaKasifi/DunyaKasifi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DunyaKasifi/Preview Content\"";
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DunyaKasifi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.DunyaKasifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63DCA1612D82192B00EBE9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DunyaKasifi/DunyaKasifi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DunyaKasifi/Preview Content\"";
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DunyaKasifi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.DunyaKasifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63DCA1622D82192B00EBE9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63DCA1632D82192B00EBE9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63DCA1652D82192B00EBE9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.DunyaKasifiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DunyaKasifi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DunyaKasifi";
+			};
+			name = Debug;
+		};
+		63DCA1662D82192B00EBE9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.DunyaKasifiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DunyaKasifi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DunyaKasifi";
+			};
+			name = Release;
+		};
+		63DCA1682D82192B00EBE9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.DunyaKasifiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DunyaKasifi;
+			};
+			name = Debug;
+		};
+		63DCA1692D82192B00EBE9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.DunyaKasifiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DunyaKasifi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63DCA1302D82192A00EBE9AC /* Build configuration list for PBXProject "DunyaKasifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DCA1622D82192B00EBE9AC /* Debug */,
+				63DCA1632D82192B00EBE9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DCA15F2D82192B00EBE9AC /* Build configuration list for PBXNativeTarget "DunyaKasifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DCA1602D82192B00EBE9AC /* Debug */,
+				63DCA1612D82192B00EBE9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DCA1642D82192B00EBE9AC /* Build configuration list for PBXNativeTarget "DunyaKasifiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DCA1652D82192B00EBE9AC /* Debug */,
+				63DCA1662D82192B00EBE9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DCA1672D82192B00EBE9AC /* Build configuration list for PBXNativeTarget "DunyaKasifiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DCA1682D82192B00EBE9AC /* Debug */,
+				63DCA1692D82192B00EBE9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63DCA12D2D82192A00EBE9AC /* Project object */;
+}
