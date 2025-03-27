@@ -1,16 +1,13 @@
 import SwiftUI
 import MapKit
 
-
-struct FlightRouteView: View {
+struct MapWithCluesView: View {
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 40.7128, longitude: -74.0060),
         span: MKCoordinateSpan(latitudeDelta: 50, longitudeDelta: 50)
     )
 
-    @State private var currentPlaneIndex = 0
-    @State private var planePosition = CLLocationCoordinate2D(latitude: 40.7128, longitude: -74.0060)
-
+    // Harita üzerindeki şehirlerin bilgileri
     let flightPathCoordinates: [FlightPathLocation] = [
         FlightPathLocation(coordinate: CLLocationCoordinate2D(latitude: 40.7128, longitude: -74.0060), cityName: "New York"),
         FlightPathLocation(coordinate: CLLocationCoordinate2D(latitude: 51.5074, longitude: -0.1278), cityName: "London"),
@@ -20,39 +17,33 @@ struct FlightRouteView: View {
 
     var body: some View {
         VStack {
-            Text("Uçuş Rotası 🌍✈️")
+            Text("Keşif Haritası 🌍✈️")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding()
 
             Map(coordinateRegion: $region, interactionModes: [.pan, .zoom], showsUserLocation: true, annotationItems: flightPathCoordinates) { location in
-                // Şehirlerin konumlarını göster
                 MapAnnotation(coordinate: location.coordinate) {
-                    VStack {
-                        Image(systemName: "mappin.circle.fill")
-                            .foregroundColor(.blue)
-                            .font(.title)
-                        Text(location.cityName)
+                    ZStack {
+                        Circle()
+                            .fill(Color.blue)
+                            .frame(width: 30, height: 30)
+                        Text(location.cityName.prefix(1)) // Şehir isminin ilk harfi
                             .font(.caption)
-                            .foregroundColor(.blue)
+                            .foregroundColor(.white)
                     }
                 }
-                
             }
             .frame(height: 300)
             .cornerRadius(10)
             .padding()
 
             Spacer()
-        
-            // İpuçları haritasını ekle
-            MapWithCluesView()
-                .padding()
         }
         .padding()
     }
 }
 
 #Preview {
-    FlightRouteView()
+    MapWithCluesView()
 }
